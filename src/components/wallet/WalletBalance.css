@@ -1,0 +1,99 @@
+.wallet-balance {
+  margin-bottom: 2rem;
+}
+
+.balance-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.balance-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.balance-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+  color: white;
+}
+
+.refresh-btn {
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.refresh-btn:hover {
+  transform: rotate(180deg);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.balance-content {
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.balance-loading {
+  padding: 1rem 0;
+}
+
+.balance-error {
+  color: #fecaca;
+  font-size: 0.9rem;
+}
+
+.balance-amount {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.amount {
+  font-size: 3rem;
+  font-weight: 700;
+  display: block;
+  line-height: 1;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.currency {
+  font-size: 1.5rem;
+  font-weight: 500;
+  opacity: 0.9;
+  margin-left: 0.5rem;
+}
+
+.balance-footer {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+
+.balance-actions {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+.balance-actions .btn {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.balance-actions .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
